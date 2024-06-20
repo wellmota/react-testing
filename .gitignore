@@ -46,3 +46,4 @@ coverage/
 
 # Tailwind CSS specific
 tailwind.config.js
+.DS_Store

@@ -22,9 +22,8 @@ out/
 # Output of 'next build'
 .next/
 
-# Testing
-coverage/
-**/__tests__/
+
+
 
 # Environment variables
 .env

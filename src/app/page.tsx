@@ -1,25 +1,25 @@
-'use client'
-import Head from "next/head";
-import { useState } from "react";
-import styles from "./styles.module.css";
+"use client"
+import Head from "next/head"
+import { useState } from "react"
+import styles from "./styles.module.css"
 
 export default function Home() {
-  const [num1, setNum1] = useState('');
-  const [num2, setNum2] = useState('');
-  const [result, setResult] = useState(0);
+  const [num1, setNum1] = useState("")
+  const [num2, setNum2] = useState("")
+  const [result, setResult] = useState(0)
 
   const add = () => {
-    setResult(parseInt(num1) + parseInt(num2));
-  };
+    setResult(parseInt(num1) + parseInt(num2))
+  }
   const subtract = () => {
-    setResult(parseInt(num1) - parseInt(num2));
-  };
+    setResult(parseInt(num1) - parseInt(num2))
+  }
   const multiply = () => {
-    setResult(parseInt(num1) * parseInt(num2));
-  };
+    setResult(parseInt(num1) * parseInt(num2))
+  }
   const divide = () => {
-    setResult(parseInt(num1) / parseInt(num2));
-  };
+    setResult(parseInt(num1) / parseInt(num2))
+  }
 
   return (
     <div className={styles.container}>
@@ -67,5 +67,5 @@ export default function Home() {
         Divide
       </button>
     </div>
-  );
+  )
 }
